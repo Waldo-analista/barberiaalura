@@ -344,18 +344,21 @@ width:100%
 
 .productos li{
 width: 100%;
-
+margin:1% 0px;
 }
 form{width: 100%;}
 
 }
-@media screen and  (max-width:768px){
-.caja, .principal, .mapacontenido,.contenidodiferenciales,.video{width: 100%;}
+@media screen and (min-width: 376px) and (max-width:768px){
+.caja{width:80%}
+nav{text-align:center;}
+
+.principal, .mapacontenido,.contenidodiferenciales,.video{width: 100%;}
 nav li{display:block;}
 
 .productos li{
-    width: 100%;
-    
+    width: 48%;
+    margin:1% 1%;
     }
 form{width: 100%;}
 
